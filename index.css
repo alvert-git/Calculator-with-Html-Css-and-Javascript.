@@ -1,0 +1,64 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    background-color: peru;
+    text-align: center;
+    font-family: cursive;
+    font-size: 54px;
+}
+  #display{
+  height: auto;
+  padding: auto
+  ;
+   
+    
+  }
+
+#whole{
+    background-color: red;
+    border-style: solid;
+    border-width: 10px;
+    /* padding-left: 500px; */
+    display: flex;
+    align-items:center;
+    flex-direction: column; 
+}
+
+.first{
+    margin: ;
+    padding:;
+
+}
+.st{
+    height: 10vx;
+    width: 5vw;
+    padding: 20px;
+    margin: 10px ,0;
+    border: 5px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
+.first :hover{
+    background-color: yellowgreen;
+}
+.second :hover{
+    background-color: yellowgreen;
+}   
+.third :hover{
+    background-color: yellowgreen;
+}
+.fourth :hover{
+    background-color: yellowgreen;
+}
+.six :hover{
+    background-color: yellowgreen;
+}
+.six{
+    padding-left: 145px;
+}
+.fourth{
+    padding-left: 145px;
+}
