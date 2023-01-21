@@ -5,54 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-</head>
-    <!-- links -->
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+</head>
 <body>
     <header>
-        <h1>This is a Calculator</h1>
+        <h1><b>This is a Calculator</b></h1>
     </header>
-    
     <div id="whole" class="flex">
-       <div id="display">
-           <input type="text">
-       </div>
-    <div class="first">
-        
-        <button class="st">1</button>
-        <button class="st">2</button>
-        <button class="st">3</button>
-        <button class="st">+</button>
-    </div>
-    
-    <div class="second">
-    <button class="st">4</button>
-    <button class="st"  >5</button>
-    <button class="st">6</button>
-    <button class="st">-</button>
-    </div>
-    <div class="third">
-        <button class="st">7</button>
-        <button class="st">8</button>
-        <button class="st">9</button>
-        <button class="st">*</button>
-    </div>
-    <div class="fourth">
-        <button class="st">0</button>
-        <button class="st">/</button>
-    </div>
-    <!-- <div class="fifth">
-    <button class="st">+</button>
-    <button class="st">-</button>
-    <button class="st">*</button>
-    <button class="st">/</button>
-    </div> -->
-    <div class="six">
-        <button class="st">=</button>
-        <button class="st">AC</button>
+        <div id="display">
+            <input disabled type="text" class="dis" name="display">
+            </div>
+        <div id="first_row">
+            <button class="fr button">1</button>
+            <button class="fr button">2</button>
+            <button class="fr button">3</button>
+            <button class="fr button">/</button>
+            <button class="fr button">AC</button>
         </div>
+        <div id="second_row">
+            <button class="sr button">4</button>
+            <button class="sr button">5</button>
+            <button class="sr button">6</button>
+            <button class="sr button">*</button>
+            <button class="sr button del">DEL</button>
         </div>
-    </body>
+        <div id="third_row">
+            <button class="tr button">7</button>
+            <button class="tr button">8</button>
+            <button class="tr button">9</button>
+            <button class="tr button">+</button>
+            <button class="tr button equal">=</button>
+        </div>
+        <div id="fourth_row">
+            <button class="fur button">0</button>
+            <button class="fur button">00</button>
+            <button class="fur button">.</button>
+            <button class="fur button">-</button>
+            <!-- <button class="fur button equal">=</button> -->
+        </div>
 
-</html>
+    </div>
+    <footer><h3>-By Albert Belbase</h3></footer>
+    
+</body>
+<script src="index.js"></script>
+</html>  
